@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-image: url('https://i.pinimg.com/originals/72/1d/4d/721d4d19a2eb606dfea54fb5c835dc4f.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; /* Ensures the background image remains fixed when scrolling */
+      background-repeat: no-repeat;
+    }
+
+    a:visited {
+      color: white; /* Change to the desired color after the link has been clicked */
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    nav {
+      background-color: #444;
+      color: white;
+      padding: 1em 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav li {
+      display: inline;
+      margin: 0 1em;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 1em;
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Tableau graph container style */
+    #viz1702256173934 {
+      margin: 20px;
+      border: 2px solid #5a5a5a; /* Adjusted purple color */
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    /* White text color for section headings */
+    h2 {
+      color: #333; /* Adjusted color */
+    }
+
+    /* Style for the added image */
+    #accounting-image {
+      width: 100%;
+      max-width: 400px; /* Adjusted maximum width */
+      margin: 20px auto; /* Added margin for spacing */
+      display: block;
+    }
+
+    /* Back to Top button styles */
+    #back-to-top {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1><a href="index.html" style="color: white; text-decoration: none;">About Me // Home Page</a></h1>
+  </header>
+
+  <!-- Add the image here -->
+  <img id="accounting-image" src="https://cdn.corporatefinanceinstitute.com/assets/accounting.jpeg" alt="Accounting Image">
+
+  <nav>
+    <ul>
+      <li><a href="#hobby-section">My Hobby</a></li>
+      <li><a href="#video-section">Hobby Video</a></li>
+      <li><a href="#tableau-section">Tableau Graph</a></li>
+    </ul>
+  </nav>
+
+  <section id="hobby-section">
+    <h2>My Hobby: Accounting</h2>
+    <p>I am passionate about accounting, and I love crunching numbers and analyzing financial data. Accounting allows me to
+      dive deep into the financial intricacies of businesses, uncovering valuable insights that drive informed
+      decision-making. It is not merely about balancing ledgers and preparing financial statements; rather, it is a
+      dynamic field that enables me to understand the heartbeat of an organization.
+
+      Through accounting, I can contribute to the strategic planning and success of a company by interpreting financial
+      trends, identifying cost-saving opportunities, and assessing the overall financial health. The meticulous process
+      of examining financial records and transactions empowers me to paint a comprehensive picture of a company's
+      performance.
+
+      Furthermore, accounting serves as a language of business, allowing me to communicate complex financial information
+      in a clear and concise manner. It bridges the gap between raw data and meaningful narratives, helping
+      stakeholders grasp the economic realities of the organization.
+
+      Beyond the numerical aspects, accounting presents continuous learning opportunities in an ever-evolving business
+      landscape. Keeping up with industry regulations, technological advancements, and emerging trends ensures that I
+      remain a versatile and valuable asset to any team or organization.
+
+      In essence, accounting is not just a profession for me; it is a passion that fuels my intellectual curiosity and
+      provides a platform for making impactful contributions to the financial success and sustainability of
+      businesses.</p>
+      <ol>
+        <li>Developing a keen eye for detail and precision in financial analysis.</li>
+        <li>Gaining insights into business strategies through interpreting financial trends.</li>
+        <li>Continuous learning opportunities in the ever-evolving field of accounting.</li>
+        <li>
+            Exploring various career paths such as:
+            <ul>
+                <li>Financial Analyst</li>
+                <li>Auditor</li>
+                <li>Forensic Accountant</li>
+                <li>Management Accountant</li>
+            </ul>
+        </li>
+    </ol>
+    
+  </section>
+
+  <section id="video-section">
+    <h2>Hobby Video</h2>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Abi56urip1M" frameborder="0"
+      allowfullscreen></iframe>
+  </section>
+
+  <section id="tableau-section">
+    <h2>Tableau Graph</h2>
+    <!-- Tableau embed code -->
+    <div class='tableauPlaceholder' id='viz1702256173934'>
+      <noscript>
+        <a href='#'>
+          <img alt='Overview'
+            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;QN&#47;QNQBPCK3M&#47;1_rss.png'
+            style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <section id="tableau-section">
+          <h2>Tableau Graph</h2>
+          <!-- The Tableau embed code -->
+          <div class='tableauPlaceholder' id='viz1702256173934'>
+            <noscript>
+              <a href='https://public.tableau.com/views/QNQBPCK3M/Overview'>
+                <img alt='Overview' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;QN&#47;QNQBPCK3M&#47;1_rss.png'
+                  style='border: none' />
+              </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+              <!-- My Tableau embed code goes here -->
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='path' value='shared&#47;QNQBPCK3M' />
+              <param name='toolbar' value='yes' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;QN&#47;QNQBPCK3M&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+            </object>
+          </div>
+          <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+          <script type='text/javascript'>
+            var divElement = document.getElementById('viz1702256173934');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if (divElement.offsetWidth > 800) {
+              vizElement.style.width = '800px'; /* Where I Adjusted width */
+              vizElement.style.height = '500px'; /* Where I Adjusted height */
+            } else if (divElement.offsetWidth > 500) {
+              vizElement.style.width = '600px';
+              vizElement.style.height = '400px';
+            } else {
+              vizElement.style.width = '100%';
+              vizElement.style.height = '300px';
+            }
+          </script>
+        </section>
+        
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='path' value='shared&#47;QNQBPCK3M' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image'
+          value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;QN&#47;QNQBPCK3M&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+       
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            // Show/hide the back-to-top button based on scroll position
+            window.onscroll = function () {
+              var backToTopButton = document.getElementById("back-to-top");
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+              } else {
+                backToTopButton.style.display = "none";
+              }
+            };
+        
+            // Smooth scroll to the top when the button is clicked
+            document.getElementById("back-to-top").addEventListener("click", function () {
+              document.body.scrollTop = 0; // For Safari
+              document.documentElement.scrollTop = 0; //
+            });
+          });
+        </script>
+        
+
+
